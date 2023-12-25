@@ -1,0 +1,147 @@
+@import "../../App.scss";
+
+.navbar{
+    padding: 16px 0 0 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    width: 1500px;
+    margin-left: 300px;
+    height: 80px;
+    &-brand{
+        font-size: 30px;
+        font-weight: 700;
+
+        @media screen and (max-width: 992px){
+            font-size: 24px;
+        }
+
+        @media screen and (max-width: 576px){
+            font-size: 20px;
+        }
+    }
+ 
+
+    &-btns{
+        .add-to-cart-btn{
+            margin-right: 28px;
+            color: $clr-pine-green;
+            .btn-ico{
+                margin-right: 10px;
+                
+            }
+            .btn-txt{
+                position: relative;
+                .cart-count-value{
+                    position: absolute;
+                    top: -10px;
+                    display: inline-flex;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: $clr-gold;
+                    width: 20px;
+                    height: 20px;
+                    border-radius: 50%;
+                    font-size: 14px;
+                    color: $clr-black;
+                    opacity: 0.8;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+}
+
+   
+
+   
+    
+i{
+    font-size: 30px;
+}
+.time{
+margin-left: 1700px;
+margin-top: -20px;
+}
+
+
+.user {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+   margin-right: 20px;
+   margin-top: -10px;
+    overflow: hidden;
+    cursor: pointer;
+   
+  }
+  .user img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .user1 {
+    position: relative;
+    width: 40px;
+    height: 40px;
+
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  .user1 img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .cart{
+    margin-left: 1100px;
+  }
+  .f{
+    font-size: 30px;
+    margin-top: 10px;
+  }
+  .App {
+    text-align: center;
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  

@@ -1,0 +1,34 @@
+
+
+Démarrer projet:
+cd Sites/magento
+sudo bin/restart
+
+
+Erreur Port in use (occupé): sudo kill `sudo lsof -t -i:9300`
+
+Url:
+https://magento.test/
+https://magento.test/admin
+
+compte admin: admin/admin123
+
+
+Commande magento
+sudo bin/bash
+bin/magento cache:status
+
+	
+///Password SMTP:mwrnecujjhyewpsa
+
+
+
+
+php bin/magento maintenance:enable 
+php bin/magento setup:upgrade
+
+
+
+	
+
+
